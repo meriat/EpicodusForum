@@ -6,6 +6,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CategoryComponent } from './category/category.component';
 import { HomeComponent } from './home/home.component';
 import { CategoryDetailComponent } from './category-detail/category-detail.component';
+import { PostComponent } from './post/post.component';
+import { PostDetailComponent } from './post-detail/post-detail.component';
 
 
 @NgModule({
@@ -15,6 +17,8 @@ import { CategoryDetailComponent } from './category-detail/category-detail.compo
     CategoryComponent,
     HomeComponent,
     CategoryDetailComponent,
+    PostComponent,
+    PostDetailComponent,
     
   ],
   imports: [
