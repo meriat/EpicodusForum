@@ -1,0 +1,9 @@
+.topnav {
+    overflow: hidden;
+}
+
+.nav-link {
+    float: left;
+    text-align: center;
+    color: #333;
+}
