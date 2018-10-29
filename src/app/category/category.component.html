@@ -1,0 +1,5 @@
+<div class="categoryList">
+  <ul>
+    <li *ngFor="let category of categories" (click)="goToDetailsPage(category)">{{category.name}}</li>
+  </ul>
+</div>
