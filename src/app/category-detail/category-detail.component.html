@@ -1,4 +1,4 @@
 <h2>This category has id number: {{categoryId}}</h2>
 <p>Category's Name: {{categoryToDisplay.name}}</p>
 <h3>Posts</h3>
-<h6 *ngFor="let post of posts">{{post.heading}}</h6>
+<h6 *ngFor="let post of posts" (click)="goToPostDetailsPage(post)">{{post.heading}}</h6>

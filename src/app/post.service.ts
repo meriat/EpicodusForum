@@ -5,7 +5,6 @@ import { POSTS } from './mock-post';
 @Injectable()
 export class PostService {
 
-  constructor() { }
   postsToDisplay: Post[] = [];
   
   getPosts(categoryId: number){
