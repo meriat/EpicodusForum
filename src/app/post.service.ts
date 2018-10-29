@@ -17,12 +17,11 @@ export class PostService {
 
   }
   
-  // getPostById(categoryId: number){
-  //   for(var i = 0; i <= POSTS.length-1; i++){
-  //     if(POSTS[i].categoryId === categoryId) {
-  //       this.postsToDisplay.push(POSTS[i]);
-  //     }
-  //   }
-  //   return this.postsToDisplay;
-  // }
+  getPostById(postId: number){
+    for(var i = 0; i <= POSTS.length-1; i++){
+      if(POSTS[i].postId === postId) {
+        return POSTS[i]
+      }
+    }
+  }
 }
